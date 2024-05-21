@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(88, 212, 88, 0.747);
+    font-family: 'Roboto';
+}
+.container{
+    width: 300px;
+    height: 350px;
+    background-color: #fff;
+    margin: 110px auto;
+    text-align: center;
+    border-radius: 8px;
+    /* خط زیر جالب بود که با پدینگ سایزشون رو کوچک کرد */
+    padding: 40px 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #ecebeb;
+    border: none;
+    outline: 0;
+}
+input[type="submit"]{
+    background-color: rgb(19, 180, 19);
+}
+p{
+    font-size: 12px;
+    margin:15px 0;
+    color: #c0b6b6;
+}
+a{
+    text-decoration: none;
+    color:rgb(19, 180, 19);
+}
